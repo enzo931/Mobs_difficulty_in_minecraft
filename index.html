@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minecraft Mobs Difficulty</title>
+
+    <link rel="stylesheet" href="src/css/fontes.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="titulo">Minecraft Mobs Difficulty</h1>
+    </header>
+    <br><br><br><br>
+    <main class="slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar" />
+      </button>
+    
+      <ul class="lista-personagens">
+        <li class="cartao fundo-1 selecionado">
+          <div class="carta-virada"></div>
+          <h2 class="nome">Zombie, o Caminhante Morto</h2>
+          <div class="nivel-carta">
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+          </div>
+          <img src="src/imagens/zombie.png" alt="Zombie, o Infestado Noturno" class="imagem-carta" />
+          <div class="informacoes">
+            <p class="descricao">
+              Uma criatura clássica dos horrores noturnos. Lento, mas persistente, o Zombie
+              persegue os aventureiros incautos que se encontram desprevenidos na escuridão.
+            </p>
+            <div class="informacoes-ataque">
+              <span>ATK/ 500</span>
+              <span>DEF/ 400</span>
+            </div>
+          </div>
+        </li>
+    
+        <li class="cartao fundo-2">
+          <div class="carta-virada"></div>
+          <h2 class="nome">Creeper, o Silencioso Explosivo</h2>
+          <div class="nivel-carta">
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+          </div>
+          <img src="src/imagens/creeper.png" alt="Creeper, o Silencioso Explosivo" class="imagem-carta" />
+          <div class="informacoes">
+            <p class="descricao">
+              Silencioso e letal, o Creeper é uma ameaça constante para construtores e exploradores.
+              Sua explosão é capaz de causar danos devastadores e alterar o cenário para sempre.
+            </p>
+            <div class="informacoes-ataque">
+              <span>ATK/ 1200</span>
+              <span>DEF/ 100</span>
+            </div>
+          </div>
+        </li>
+    
+        <li class="cartao fundo-3">
+          <div class="carta-virada"></div>
+          <h2 class="nome">Enderman, o Viajante das Dimensões</h2>
+          <div class="nivel-carta">
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+          </div>
+          <img src="src/imagens/anderman.png" alt="Enderman, o Viajante das Dimensões" class="imagem-carta" />
+          <div class="informacoes">
+            <p class="descricao">
+              Com olhos brilhantes e um comportamento enigmático, o Enderman pode
+              se teletransportar, pegando blocos e surpreendendo seus oponentes.
+            </p>
+            <div class="informacoes-ataque">
+              <span>ATK/ 1600</span>
+              <span>DEF/ 1000</span>
+            </div>
+          </div>
+        </li>
+    
+        <li class="cartao fundo-4">
+          <div class="carta-virada"></div>
+          <h2 class="nome">Wither Skeleton, o Guerreiro das Trevas</h2>
+          <div class="nivel-carta">
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+          </div>
+          <img src="src/imagens/wither-skeleton.png" alt="Wither Skeleton, o Guerreiro das Trevas" class="imagem-carta" />
+          <div class="informacoes">
+            <p class="descricao">
+              Um esqueleto sombrio que carrega uma espada de pedra. Suas toxinas
+              podem enfraquecer até o mais resistente dos heróis.
+            </p>
+            <div class="informacoes-ataque">
+              <span>ATK/ 1800</span>
+              <span>DEF/ 1500</span>
+            </div>
+          </div>
+        </li>
+    
+        <li class="cartao fundo-5">
+          <div class="carta-virada"></div>
+          <h2 class="nome">Blaze, o Guardião do Nether</h2>
+          <div class="nivel-carta">
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+          </div>
+          <img src="src/imagens/blaze.png" alt="Blaze, o Guardião do Nether" class="imagem-carta" />
+          <div class="informacoes">
+            <p class="descricao">
+              Um ser de fogo que patrulha fortalezas do Nether. Suas bolas de fogo
+              são mortais e difíceis de evitar.
+            </p>
+            <div class="informacoes-ataque">
+              <span>ATK/ 2000</span>
+              <span>DEF/ 1700</span>
+            </div>
+          </div>
+        </li>
+    
+        <li class="cartao fundo-6">
+          <div class="carta-virada"></div>
+          <h2 class="nome">Warden, o Guardião Profundo</h2>
+          <div class="nivel-carta">
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+          </div>
+          <img src="src/imagens/warden.png" alt="Warden, o Guardião Profundo" class="imagem-carta" />
+          <div class="informacoes">
+            <p class="descricao">
+              Habitante das profundezas, o Warden é uma força imparável. Com sentidos aguçados,
+              ele pune qualquer um que se atreva a perturbá-lo.
+            </p>
+            <div class="informacoes-ataque">
+              <span>ATK/ 3000</span>
+              <span>DEF/ 2500</span>
+            </div>
+          </div>
+        </li>
+    
+        <li class="cartao fundo-7">
+          <div class="carta-virada"></div>
+          <h2 class="nome">Ender Dragon, o Mestre do Fim</h2>
+          <div class="nivel-carta">
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+            <span class="estrela"></span>
+          </div>
+          <img src="src/imagens/ender-dragon.png" alt="Ender Dragon, o Mestre do Fim" class="imagem-carta" />
+          <div class="informacoes">
+            <p class="descricao">
+              A entidade suprema do End. Ender Dragon é o chefe final que protege o portal
+              de saída, desafiando os jogadores em uma batalha épica.
+            </p>
+            <div class="informacoes-ataque">
+              <span>ATK/ 3500</span>
+              <span>DEF/ 3000</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    
+      <button class="btn-seta btn-avancar" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
